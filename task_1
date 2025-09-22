@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+	double x, y, Y;
+
+	std::cout << "x = ";
+	std::cin >> x;
+
+	std::cout << "y = ";
+	std::cin >> y;
+
+	if (x < 0) {
+		Y = x * x - sin(y);
+	}
+	else {
+		Y = sqrt(x) + cos(y);
+	}
+
+	std::cout << "Y = " << Y << std::endl;
+   
+}
+
+
